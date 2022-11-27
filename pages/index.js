@@ -27,13 +27,6 @@ import data from "../public/data.jpg";
 import opensea from "../public/opensea.jpg";
 import weather from "../public/weather.jpg";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -237,9 +230,7 @@ export default function Home() {
                 This App is a NFT Marketplace in which we can Mint, Buy an NFT.
                 Built on Ethereum Blockchain And Thirdweb. 
               </p>
-              <p>
               <p className="text-gray-800 py-1">Works on Georli Test Network</p>
-              </p>
               <a href="https://github.com/fantastic-yuvi/opensea-clone">
               <h4 className="py-4 text-teal-600 hover:text-cyan-400 hover:scale-150 duration-150 hover:animate-pulse  duration-150">View on Github</h4>
               </a>
@@ -320,7 +311,7 @@ export default function Home() {
                   Made with <span className = "mr-2" role="img" aria-label="heart">💙 </span>by<a className="text-blue-500 hover:underline" href="mailto:me.ysgangwarfbd2001@gmail.com"> Yuvraj Singh Gangwar</a>
               </p>
               </div>
-    </div>
+        </div>
       </main>
     </div>
   );
