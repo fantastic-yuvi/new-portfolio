@@ -100,12 +100,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        
           <div>
           <p className="text-2xl text-black  md:text-4xl font-bold text-center pt-4">
           Tech I Use 
         </p>
-    
+        </div>
 
     <div className = "flex flex-wrap justify-center pt-2">
         
@@ -137,9 +137,6 @@ export default function Home() {
             Tailwind-CSS
           </p>
         </div>
-        
-       
-        
         <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
           <SiJavascript color="#ffdf00" className="mx-auto text-4xl hover:scale-150 duration-300" />
           <p className="mt-6 text-xl font-semibold text-center">
@@ -213,7 +210,7 @@ export default function Home() {
       </div>
 
 
-          </div>
+          {/* </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <a href="https://opensea-clone-tan.vercel.app/">
@@ -284,7 +281,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Openweather API</p>
             </div>
           </div>
-        </section>
         <div className="py-5 border-t-3/2">
             <div className="flex align-center justify-center mt-4">
                 
@@ -311,7 +307,7 @@ export default function Home() {
                   Made with <span className = "mr-2" role="img" aria-label="heart">💙 </span>by<a className="text-blue-500 hover:underline" href="mailto:me.ysgangwarfbd2001@gmail.com"> Yuvraj Singh Gangwar</a>
               </p>
               </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );
