@@ -161,7 +161,7 @@ export default function Home() {
 
         <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
           <SiCodeforces color="red" className="mx-auto text-4xl hover:scale-150 duration-300" />
-          <a href="https://codeforces.com/Lord_yuvi/">
+          <a href="https://codeforces.com/profile/lord_yuvi">
           <p className="mt-6 text-xl font-semibold text-center hover:text-cyan-400 hover:scale-150 duration-150 hover:animate-pulse  duration-150 ">
             lord_yuvi
           </p>
@@ -208,7 +208,7 @@ export default function Home() {
       </div>
 
 
-          {/* </div>
+          
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <a href="https://opensea-clone-tan.vercel.app/">
@@ -305,7 +305,7 @@ export default function Home() {
                   Made with <span className = "mr-2" role="img" aria-label="heart">💙 </span>by<a className="text-blue-500 hover:underline" href="mailto:me.ysgangwarfbd2001@gmail.com"> Yuvraj Singh Gangwar</a>
               </p>
               </div>
-        </div> */}
+        </div>
       </main>
     </div>
   );
